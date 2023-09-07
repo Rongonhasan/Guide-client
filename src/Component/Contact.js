@@ -12,7 +12,7 @@ const Contact = () => {
                                 Do you have any query? Feel free to contact us anytime. We are always ready to help you.
                             </p>
                             <div className="mt-8">
-                                <h1 className="text-2xl font-bold text-pink-600">
+                                <h1 className="text-2xl font-bold text-blue-600">
                                     01971245721
                                 </h1>
                                 <address className="mt-2 not-italic">
@@ -41,7 +41,7 @@ const Contact = () => {
                                     <textarea className="w-full rounded-lg border-gray-200 p-3 text-sm" placeholder="Message" rows={8} id="message" defaultValue={""} name="message" />
                                 </div>
                                 <div className="mt-4">
-                                    <button type="submit" className="inline-flex w-full items-center justify-center rounded-lg bg-[#BE123B]  px-5 py-3 text-white sm:w-auto">
+                                    <button type="submit" className="inline-flex w-full items-center justify-center rounded-lg bg-[#1254be]  px-5 py-3 text-white sm:w-auto">
                                         <span className="font-medium"> Send Enquiry </span>
                                         <svg xmlns="http://www.w3.org/2000/svg" className="ml-3 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />

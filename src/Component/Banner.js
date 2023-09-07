@@ -15,7 +15,10 @@ const Banner = () => {
                       </strong>
                   </h1>
                   <p className="mt-4 max-w-lg sm:text-xl sm:leading-relaxed">
-                     Guide 23 is a Travel Guide service provided by Sh Rongon. It is a one-stop solution for all your travel needs. You can find all the information you need about your destination, including hotels, restaurants, attractions, and more.
+                     Guide 23 is a Travel Guide service provided by Sh Rongon.
+                    <br>It is a one-stop solution for all your travel needs. </br>
+                      <br/>You can find all the information you need about your destination, 
+                      <br/>including hotels, restaurants, attractions, and more.
                   </p>
                   <div className="mt-8 flex flex-wrap gap-4 text-center">
                       <Link to="/services" className="block w-full rounded bg-[#BE123B] px-12 py-3 text-sm font-medium text-white shadow hover:bg-[#541624]  focus:outline-none focus:ring active:bg-rose-500 sm:w-auto">

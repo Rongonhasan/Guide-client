@@ -32,7 +32,7 @@ import useTitle from '../hook/useTitle';
                <div className="card-actions justify-end">
 
                    <Link to={`/services/${_id}`}>
-                       <button className="btn btn-error">Read More</button>
+                       <button className="btn btn-primary">Read More</button>
                    </Link>
                    
                   

@@ -45,7 +45,7 @@ const menuItems = <>
 
 
     return (
-        <div className="navbar h-12 mb-4 pt-8 bg-white">
+        <div className="navbar fixed z-10 bg-opacity-30 max-w-screen-xl bg-white text-black h-[30px]">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">

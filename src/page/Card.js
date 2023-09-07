@@ -56,6 +56,7 @@ const Card = () => {
     return (
         <div>
                <Toaster/>
+               <h1 className='mb-4'>..</h1>
            <div>
        <div>
        <div className="my-10 border-5">
