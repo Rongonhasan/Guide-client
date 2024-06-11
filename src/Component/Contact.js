@@ -13,14 +13,14 @@ const Contact = () => {
                             </p>
                             <div className="mt-8">
                                 <h1 className="text-2xl font-bold text-blue-600">
-                                    01971245721
+                                    01793324222
                                 </h1>
                                 <address className="mt-2 not-italic">
                                     House 101,  Main Road , Pti Mor  Bogura-5800
                                 </address>
                             </div>
                         </div>
-                        <div className="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12">
+                        <div className="rounded-lg  p-8 shadow-lg lg:col-span-3 lg:p-12">
                             <form  className="space-y-4">
                                 <div>
                                     <label className="sr-only" htmlFor="name">Name</label>
