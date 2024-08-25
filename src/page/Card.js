@@ -70,8 +70,11 @@ const Card = () => {
                         </div>
                     </div>
                 </div>
+                {/* service details ok end now */}
        </div>
-    <div>
+
+
+                    <div>
                     <div className="overflow-x-auto w-full">
                         <table className="table w-full">
                             <thead>
@@ -104,6 +107,7 @@ const Card = () => {
                         </label>
                         <h2 className='text-3xl'>{displayName}</h2>
                     </div>
+                    
                     <div className=' w-[80%] mx-auto mb-10 '>
                         <input name="review" type="text" placeholder="Type here" className="input input-bordered input-primary w-full px-10 mb-3 gap-2" /><br />
                         <button className='btn btn-outline btn-secondary' type='submit'>Post</button>

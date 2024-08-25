@@ -53,9 +53,9 @@ const AddService = () => {
                     <input name="img" type="text" placeholder="Service Photo Url  " required className="input input-bordered input-error w-full" />
                     <input name="price" type="text" placeholder="price" required className="input input-bordered input-error w-full" />
                 </div>
-                <textarea name="Description" className="textarea textarea-bordered textarea-success  h-24 w-full" placeholder="Describe Your service" required></textarea>
+                <textarea name="Description" className="textarea textarea-bordered textarea-error  h-24 w-full" placeholder="Describe Your service" required></textarea>
                 <div className='text-center my-5'>
-                    <input className='btn btn-info' type="submit" value="Add Service" />
+                    <input className='btn btn-warning' type="submit" value="Add Service" />
                 </div>
             </form>
        </div>
